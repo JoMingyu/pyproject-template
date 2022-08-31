@@ -19,7 +19,6 @@ pytest = "^7.1.2"
 mypy = "^0.971"
 pytest-cov = "^3.0.0"
 flake8 = "^5.0.4"
-pylint = "^2.15.0"
 
 [tool.isort]
 profile = "black"

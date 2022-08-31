@@ -4,11 +4,13 @@ repos:
     hooks:
       - id: isort
         stages: [commit]
+        args: [ "--diff", "--profile", "black" ]
   - repo: https://github.com/ambv/black
     rev: 22.6.0
     hooks:
       - id: black
         stages: [commit]
+        args: [ "--check" ]
   - repo: https://github.com/PyCQA/flake8
     rev: 5.0.4
     hooks:
