@@ -1,3 +1,6 @@
+# Version should match to the version of poetry.lock file.
+# Setting should match to the CI checklists.
+
 repos:
   - repo: https://github.com/PyCQA/isort
     rev: 5.10.1
